@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:retrofit_flutter_tryout/view/state/view_model.dart';
-import 'package:retrofit_flutter_tryout/view/ui/components/post.widget.dart';
+import 'package:retrofit_flutter_tryout/presentation/state/view_model.dart';
+import 'package:retrofit_flutter_tryout/presentation/ui/components/post.widget.dart';
+
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});

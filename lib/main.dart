@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:retrofit_flutter_tryout/data/data_sources/data_source.dart';
 import 'package:retrofit_flutter_tryout/data/repository/data_repository.dart';
-import 'package:retrofit_flutter_tryout/view/state/view_model.dart';
-import 'package:retrofit_flutter_tryout/view/ui/view.dart' show MyHomePage;
+import 'package:retrofit_flutter_tryout/presentation/state/view_model.dart' show ViewModel;
+import 'package:retrofit_flutter_tryout/presentation/ui/view.dart' show MyHomePage;
+
 
 void main() {
   runApp(const MyApp());

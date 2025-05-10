@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:retrofit_flutter_tryout/data/repository/data_repository.dart';
+import 'package:retrofit_flutter_tryout/domain/business_logic.dart';
 import 'package:retrofit_flutter_tryout/model.dart';
 
-class ViewModel with ChangeNotifier {
+class ViewModel with ChangeNotifier, BusinessLogicOfSomeSort {
   ViewModel(this.repository);
 
   DataRepository repository;
