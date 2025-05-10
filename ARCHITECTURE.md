@@ -28,24 +28,26 @@ lib/
 
 ---
 
-## 🧱 Layered Architecture
+## 🧱 Architecture
 
 ### 1. **Presentation Layer** (`presentation/`)
 
 * **Responsibility**: UI rendering and user interaction.
-* **Depends On**: `domain` layer (not on `data`).
-* **Example**: `some_view.dart` uses `Provider` or `StateNotifier` to get state from domain.
+* **Depends On**: `state` View Model (not on `data`).
+* **Example**: `some_view.dart` uses `Provider` or `StateNotifier` to get state.
 
 ### 2. **Domain Layer** (`domain/`)
 
 * **Responsibility**: Business logic and core rules.
-* **Pure Dart**: No framework or I/O code. Easily unit-testable.
-* **Defines**: Interfaces (abstract repositories), use cases, and entities.
+* **Pure Dart**: No framework or I/O code. Easily unit-testable. Uses `mixin` to be used with View Model
+* **Defines**:  Behaviour of software.
+* **Example**: `view_model.dart` uses `SomeBusinessLogic`.
 
 ### 3. **Data Layer** (`data/`)
 
 * **Responsibility**: Provides concrete data through APIs, local DBs, etc.
-* **Implements**: The domain layer's repository interfaces.
+* **Repository**: repository is interface the View-Model will use.
+* **data sources**: interface that repository will use.
 * **DTO**: Used for serialization/deserialization from external sources.
 * **DAO**: Used for interacting with local persistence like SQLite or Hive.
 
