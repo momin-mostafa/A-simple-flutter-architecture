@@ -2,6 +2,7 @@
 # 🧪 Repository Dependency Injection - Flutter Clean Architecture
 
 A POC Flutter project showcasing **layered clean architecture** with **repository pattern** and **dependency injection**, built for modularity, scalability, and testability.
+Which is heavily inspired by google, robert c martin. It's inspired but don't strictly follows. 
 
 ---
 
@@ -101,6 +102,7 @@ flutter test
 * [Flutter Docs](https://flutter.dev)
 * [Provider Package](https://pub.dev/packages/provider)
 * [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
+* [Googles Recommended Architecture](https://developer.android.com/topic/architecture)
 
 ---
 
