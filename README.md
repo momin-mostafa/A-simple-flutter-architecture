@@ -28,7 +28,7 @@ lib/
 ├── data/
 │   ├── DTO/                       # Raw data structures from APIs
 │   ├── DAO/                       # Data access objects (local DB)
-│   ├── data\_sources/              # Remote & local data providers
+│   ├── data_sources/              # Remote & local data providers
 │   └── repositories/
 │       └── repository\_impl.dart   # Concrete repository implementations
 
