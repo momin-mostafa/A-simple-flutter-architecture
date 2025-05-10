@@ -1,5 +1,5 @@
 import 'package:retrofit_flutter_tryout/data/data_sources/data_source.dart';
-import 'package:retrofit_flutter_tryout/model.dart';
+import 'package:retrofit_flutter_tryout/data/model/model.dart';
 
 // this can be singleton.
 class DataRepository {

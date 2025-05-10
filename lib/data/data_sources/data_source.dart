@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/error_logger.dart';
 import 'package:retrofit/http.dart';
-import 'package:retrofit_flutter_tryout/model.dart';
+import 'package:retrofit_flutter_tryout/data/model/model.dart';
 
 part 'data_source.g.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:retrofit_flutter_tryout/model.dart';
+import 'package:retrofit_flutter_tryout/data/model/model.dart';
 
 class PostWidget extends StatelessWidget {
   const PostWidget({super.key, required this.post});
