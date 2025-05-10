@@ -17,8 +17,9 @@ lib/
 ├── domain/
 │   └── business_logic.dart        # Pure business rules
 ├── data/
-│   ├── DTO/                       # Raw data structures from APIs
-│   ├── DAO/                       # Data access objects (local DB)
+│   ├── model/                      
+│   │   └── DTO/                   # Raw data structures from APIs
+│   │   └── DAO/                   # Data access objects (local DB)
 │   ├── data_sources/              # Remote & local data providers
 │   └── repositories/
 │       └── repository_impl.dart   # Concrete repository implementations
