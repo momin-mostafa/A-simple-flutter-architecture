@@ -104,4 +104,6 @@ flutter test
 
 **[Momin Mostafa](https://github.com/momin-mostafa)**
 
-```
+--- 
+
+There are some known issues. Please check [KNOWN_ISSUES](KNOWN_ISSUES.md)
