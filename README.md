@@ -31,6 +31,13 @@ This project is my attempt to build a **lightweight**, **tool-agnostic**, and **
 
 ---
 
+## 📝Developer Note
+- It uses [retrofit](https://pub.dev/packages/retrofit) for faster data source generation
+- It can be improved by using freezed/json_annotation like tools to save dev time on DTO
+- DAO can be introduced for offline caching
+
+---
+
 ## 🧱 Architecture
 
 For a detailed breakdown of the layered structure and testing rationale:  
