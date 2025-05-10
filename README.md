@@ -100,7 +100,6 @@ flutter test
 
 * [Flutter Docs](https://flutter.dev)
 * [Provider Package](https://pub.dev/packages/provider)
-* [Get It Package](https://pub.dev/packages/get_it)
 * [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ---
@@ -111,5 +110,3 @@ flutter test
 
 ```
 
-Would you like this as a downloadable file or committed as a PR directly to your GitHub repo?
-```
