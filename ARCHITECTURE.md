@@ -12,8 +12,9 @@ This Flutter project uses a **layered clean architecture** with **repository pat
 lib/
 ├── main.dart
 ├── presentation/
+│   └── state/                     # View-Model 
 │   └── ui/
-│       └── some_view.dart         # UI layer
+│       └── some_view.dart         # View
 ├── domain/
 │   └── business_logic.dart        # Pure business rules
 ├── data/

@@ -15,28 +15,6 @@ Which is heavily inspired by google, robert c martin. It's inspired but don't st
 
 ---
 
-## 🗂️ Project Structure
-
-```
-
-lib/
-├── main.dart
-├── presentation/
-│   └── ui/
-│       └── some\_view\.dart         # UI layer
-├── domain/
-│   └── business\_logic.dart        # Pure business rules
-├── data/
-│   ├── DTO/                       # Raw data structures from APIs
-│   ├── DAO/                       # Data access objects (local DB)
-│   ├── data_sources/              # Remote & local data providers
-│   └── repositories/
-│       └── repository\_impl.dart   # Concrete repository implementations
-
-````
-
----
-
 ## 🧱 Architecture
 
 For a detailed explanation of the architecture and testing strategy, see:  
